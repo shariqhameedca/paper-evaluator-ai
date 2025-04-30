@@ -11,10 +11,10 @@ This project contains:
 
 ## 📁 Project Structure
 
-paper-evaluator-ai/ 
-├── frontend/ # React-based web app 
-├── backend/ # FastAPI server for evaluation and DB 
-└── README.md # You're here!
+paper-evaluator-ai/␣␣ 
+├── frontend/ # React-based web app ␣␣
+├── backend/ # FastAPI server for evaluation and DB ␣␣
+└── README.md # You're here! ␣␣
 
 ---
 
