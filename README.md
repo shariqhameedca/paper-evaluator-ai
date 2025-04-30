@@ -42,12 +42,12 @@ cd paper-evaluator-ai
 cd backend
 ```
 
-# Install dependencies
+#### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# Set environment variables
+#### Set environment variables
 Edit .env and add:
 
 ```bash
@@ -69,37 +69,35 @@ In a separate terminal:
 cd frontend
 ```
 
-# Install dependencies
+#### Install dependencies
 ```bash
 npm install
 ```
 
-# Start development server
+#### Start development server
 ```bash
 npm start
 ```
 
 React app will run at: http://localhost:3000
 
-✨ Features
-Create Evaluations with questions, ideal answers, and key points
+### ✨ Features
 
-Submit student answers
+- Create Evaluations with questions, ideal answers, and key points  
+- Submit student answers  
+- Automatic scoring using LLM via OpenRouter API  
+- Simple and intuitive UI
 
-Automatic scoring using LLM via OpenRouter API
-
-Simple and intuitive UI
-
-🧪 API Testing
+### 🧪 API Testing
 FastAPI docs available at:
 http://localhost:8000/docs
 
-📌 Tech Stack
+### 📌 Tech Stack
 Frontend: React, React Router
 
 Backend: FastAPI, SQLAlchemy
 
 LLM: OpenRouter API (Gemma 3 27B or other)
 
-🤝 Contributions
+### 🤝 Contributions
 Contributions are welcome! Please open issues or submit a pull request.
