@@ -11,11 +11,10 @@ This project contains:
 
 ## 📁 Project Structure
 
-paper-evaluator-ai/ ├── frontend/ # React-based web app ├── backend/ # FastAPI server for evaluation and DB └── README.md # You're here!
-
-yaml
-Copy
-Edit
+paper-evaluator-ai/ 
+├── frontend/ # React-based web app 
+├── backend/ # FastAPI server for evaluation and DB 
+└── README.md # You're here!
 
 ---
 
@@ -37,49 +36,49 @@ Before running the project, make sure you have:
 ```bash
 git clone https://github.com/your-username/paper-evaluator-ai.git
 cd paper-evaluator-ai
-2️⃣ Run the Backend (FastAPI)
-bash
-Copy
-Edit
+```
+### 2️⃣ Run the Backend (FastAPI)
+```bash
 cd backend
-
-# [Optional] Create virtual environment
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\\Scripts\\activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # Set environment variables
-touch .env
 Edit .env and add:
 
-ini
-Copy
-Edit
+```bash
 OPENROUTER_API_KEY=your-openrouter-api-key
 HTTP_REFERER=your-project-referer-url
+```
 Run the backend:
 
-bash
-Copy
-Edit
+```bash
 uvicorn main:app --reload
+```
+
 FastAPI will start at: http://localhost:8000
 
-3️⃣ Run the Frontend (React)
+### 3️⃣ Run the Frontend (React)
 In a separate terminal:
 
-bash
-Copy
-Edit
+```bash
 cd frontend
+```
 
 # Install dependencies
+```bash
 npm install
+```
 
 # Start development server
+```bash
 npm start
+```
+
 React app will run at: http://localhost:3000
 
 ✨ Features
@@ -91,7 +90,7 @@ Automatic scoring using LLM via OpenRouter API
 
 Simple and intuitive UI
 
-🧪 API Testing (Optional)
+🧪 API Testing
 FastAPI docs available at:
 http://localhost:8000/docs
 
